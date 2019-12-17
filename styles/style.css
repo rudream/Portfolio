@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -314,11 +314,13 @@ nav li {
   margin-bottom: 7rem;
 }
 
-.eztravel, .photography {
+.eztravel,
+.photography {
   padding: 2%;
 }
 
-.eztravel img, .photography img {
+.eztravel img,
+.photography img {
   max-width: 40vw;
   border-radius: 5rem;
   border: 2px solid #2c2c2c;
@@ -342,7 +344,8 @@ nav li {
           flex-direction: row;
 }
 
-.contact label, .contact button {
+.contact label,
+.contact button {
   font-size: 2.5rem;
 }
 
@@ -366,13 +369,15 @@ nav li {
   border-radius: 2rem;
 }
 
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
   margin: 2rem;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
 }
 
-.contact input:focus, .contact textarea:focus {
+.contact input:focus,
+.contact textarea:focus {
   border: 2px solid #2c2c2c;
 }
 
@@ -449,7 +454,8 @@ nav li {
     height: 30vh;
     min-width: 90vw;
   }
-  .eztravel, .photography {
+  .eztravel,
+  .photography {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50rem;
             flex: 1 1 50rem;

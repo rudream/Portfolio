@@ -1,23 +1,22 @@
-.projects{
-    margin: auto;
-    min-height: 90vh;
-    width: 90%;
-    @include flex(space-between, center, row);
-    text-align: center;
-    flex-wrap: wrap;
-    h2{
-        margin-bottom: 7rem;
-    }
+.projects {
+  margin: auto;
+  min-height: 90vh;
+  width: 90%;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin-bottom: 7rem;
+  }
 }
 
-.eztravel,.photography{
-    padding: 2%;
-    img{
-        max-width: 40vw;
-        border-radius: 5rem;
-        border: 2px solid $gray;
-        min-width: 100%;
-    }
+.eztravel,
+.photography {
+  padding: 2%;
+  img {
+    max-width: 40vw;
+    border-radius: 5rem;
+    border: 2px solid $gray;
+    min-width: 100%;
+  }
 }
-
-
