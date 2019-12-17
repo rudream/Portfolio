@@ -181,11 +181,6 @@ nav li {
   z-index: -1;
 }
 
-.intro .me {
-  width: 50vw;
-  max-height: 89vh;
-}
-
 .active-button {
   background: #2c2c2c;
   color: white;
@@ -481,10 +476,17 @@ nav li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 1vh;
   }
   .logo {
-    max-width: 30vw;
-    margin-left: 2vw;
+    display: none !important;
+  }
+  h2 {
+    margin-top: 5vh;
+  }
+  .me {
+    max-height: 25vh;
+    margin-top: 5vh;
   }
   .intro-text {
     display: -webkit-box;

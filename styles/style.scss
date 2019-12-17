@@ -79,13 +79,21 @@ $gray: #2c2c2c;
 
   .intro-social {
     @include flex(center, center, column);
+    margin-top: 1vh;
   }
 
   .logo {
-    max-width: 30vw;
-    margin-left: 2vw;
+    display: none !important;
   }
 
+  h2{
+    margin-top: 5vh;
+  }
+  
+  .me{
+    max-height: 25vh;
+    margin-top: 5vh;
+  }
   .intro-text {
     @include flex(center, center, column);
     p {
