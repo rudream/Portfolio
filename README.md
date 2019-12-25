@@ -14,5 +14,3 @@ Features:
 
 - Animations
 - Mobile Responsiveness
-
-Live demo: https://rudream.github.io/Portfolio/
